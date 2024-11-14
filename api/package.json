@@ -1,0 +1,32 @@
+{
+  "name": "movie-scraper-api",
+  "version": "1.0.0",
+  "description": "Express API for scraping movie data and managing MongoDB records",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rafalohmann/movie-scraper.git"
+  },
+  "author": "https://github.com/rafalohmann",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rafalohmann/movie-scraper/issues"
+  },
+  "homepage": "https://github.com/rafalohmann/movie-scraper#readme",
+  "dependencies": {
+    "axios": "^1.7.7",
+    "cheerio": "^1.0.0",
+    "compression": "^1.7.5",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "helmet": "^8.0.0",
+    "mongoose": "^8.8.1",
+    "puppeteer": "^23.7.1",
+    "puppeteer-extra": "^3.3.6",
+    "puppeteer-extra-plugin-stealth": "^2.11.2"
+  }
+}
